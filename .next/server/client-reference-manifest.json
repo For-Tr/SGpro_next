@@ -1,5 +1,21 @@
 {
   "ssrModuleMapping": {
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
@@ -16,14 +32,6 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
@@ -32,9 +40,49 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+    "(app-client)/./app/header/HeaderOne.jsx": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "id": "(sc_client)/./app/header/HeaderOne.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/seo.jsx": {
+      "*": {
+        "id": "(sc_client)/./components/seo.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/banner/banner.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/banner/banner.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/deluxe/deluxe.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/deluxe/deluxe.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/accommodations/accommodations.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/accommodations/accommodations.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/blog/blog.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/blog/blog.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -56,54 +104,6 @@
         "async": false
       }
     },
-    "(app-client)/./components/seo.jsx": {
-      "*": {
-        "id": "(sc_client)/./components/seo.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/accommodations/accommodations.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/accommodations/accommodations.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/deluxe/deluxe.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/deluxe/deluxe.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/banner/banner.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/banner/banner.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/blog/blog.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/blog/blog.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/header/HeaderOne.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/header/HeaderOne.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./app/scroll-to-top/scrollToTop.jsx": {
       "*": {
         "id": "(sc_client)/./app/scroll-to-top/scrollToTop.jsx",
@@ -112,17 +112,17 @@
         "async": false
       }
     },
-    "(app-client)/./app/videoarea/videoarea.jsx": {
+    "(app-client)/./app/testimonial/testimonial.jsx": {
       "*": {
-        "id": "(sc_client)/./app/videoarea/videoarea.jsx",
+        "id": "(sc_client)/./app/testimonial/testimonial.jsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./app/testimonial/testimonial.jsx": {
+    "(app-client)/./app/videoarea/videoarea.jsx": {
       "*": {
-        "id": "(sc_client)/./app/testimonial/testimonial.jsx",
+        "id": "(sc_client)/./app/videoarea/videoarea.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -147,6 +147,38 @@
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
+    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
     "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
@@ -179,22 +211,6 @@
       ],
       "async": false
     },
-    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\components\\app-router.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
-    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
     "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
@@ -211,51 +227,11 @@
       ],
       "async": false
     },
-    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "D:\\PRO\\1118 地产信息\\react\\app\\header\\HeaderOne.jsx": {
+      "id": "(app-client)/./app/header/HeaderOne.jsx",
       "name": "*",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
-    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
-    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\esm\\client\\image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\esm\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/[not-found]/page:static/chunks/app/[not-found]/page.js"
       ],
       "async": false
     },
@@ -263,12 +239,12 @@
       "id": "(app-client)/./components/seo.jsx",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/[not-found]/page:static/chunks/app/[not-found]/page.js"
       ],
       "async": false
     },
-    "D:\\PRO\\1118 地产信息\\react\\app\\accommodations\\accommodations.jsx": {
-      "id": "(app-client)/./app/accommodations/accommodations.jsx",
+    "D:\\PRO\\1118 地产信息\\react\\app\\banner\\banner.jsx": {
+      "id": "(app-client)/./app/banner/banner.jsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -283,8 +259,8 @@
       ],
       "async": false
     },
-    "D:\\PRO\\1118 地产信息\\react\\app\\banner\\banner.jsx": {
-      "id": "(app-client)/./app/banner/banner.jsx",
+    "D:\\PRO\\1118 地产信息\\react\\app\\accommodations\\accommodations.jsx": {
+      "id": "(app-client)/./app/accommodations/accommodations.jsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -299,11 +275,35 @@
       ],
       "async": false
     },
-    "D:\\PRO\\1118 地产信息\\react\\app\\header\\HeaderOne.jsx": {
-      "id": "(app-client)/./app/header/HeaderOne.jsx",
+    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/[not-found]/page:static/chunks/app/[not-found]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\esm\\client\\image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/[not-found]/page:static/chunks/app/[not-found]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/[not-found]/page:static/chunks/app/[not-found]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/[not-found]/page:static/chunks/app/[not-found]/page.js"
       ],
       "async": false
     },
@@ -315,16 +315,16 @@
       ],
       "async": false
     },
-    "D:\\PRO\\1118 地产信息\\react\\app\\videoarea\\videoarea.jsx": {
-      "id": "(app-client)/./app/videoarea/videoarea.jsx",
+    "D:\\PRO\\1118 地产信息\\react\\app\\testimonial\\testimonial.jsx": {
+      "id": "(app-client)/./app/testimonial/testimonial.jsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "D:\\PRO\\1118 地产信息\\react\\app\\testimonial\\testimonial.jsx": {
-      "id": "(app-client)/./app/testimonial/testimonial.jsx",
+    "D:\\PRO\\1118 地产信息\\react\\app\\videoarea\\videoarea.jsx": {
+      "id": "(app-client)/./app/videoarea/videoarea.jsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -352,6 +352,7 @@
     "D:\\PRO\\1118 地产信息\\react\\app\\page": [
       "static/css/app/page.css"
     ],
+    "D:\\PRO\\1118 地产信息\\react\\app\\[not-found]\\page": [],
     "D:\\PRO\\1118 地产信息\\react\\app\\layout": [
       "static/css/app/layout.css"
     ]

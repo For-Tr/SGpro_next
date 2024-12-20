@@ -7,9 +7,9 @@ const BannerContent = () => {
     <div className="row">
       <div className="col-xl-12">
         <div className="banner__area-title">
-          <h1>
-            New Launch Condos<span>In Singapore</span>
-          </h1>
+          <h5>
+            Make wise decision today
+          </h5>
           <div className="banner__area-title-video">
             <div className="video__play">
 

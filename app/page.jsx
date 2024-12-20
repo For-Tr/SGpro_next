@@ -21,8 +21,6 @@ export default function Home() {
         <Banner />
         <Roomlistblogs />
 
-        <Footer />
-        <ScrollToTopButton />
     </>
   );
 }
