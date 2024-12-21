@@ -1,0 +1,18 @@
+{
+  "/[not-found]/page": "/[not-found]",
+  "/page": "/",
+  "/contact/page": "/contact",
+  "/blog-grid/page": "/blog-grid",
+  "/home-two/page": "/home-two",
+  "/home-three/page": "/home-three",
+  "/about/page": "/about",
+  "/blog-standard/page": "/blog-standard",
+  "/room-details/page": "/room-details",
+  "/room-modern/page": "/room-modern",
+  "/room-style/page": "/room-style",
+  "/socials/page": "/socials",
+  "/room-list/page": "/room-list",
+  "/services-details/page": "/services-details",
+  "/team/page": "/team",
+  "/blog-details/[id]/page": "/blog-details/[id]"
+}
