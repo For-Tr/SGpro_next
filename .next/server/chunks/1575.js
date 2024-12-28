@@ -1961,7 +1961,7 @@ Object.defineProperty(exports, "AppRouterAnnouncer", ({
     }
 }));
 const _react = __webpack_require__(8038);
-const _reactdom = __webpack_require__(8704);
+const _reactdom = __webpack_require__(3743);
 const ANNOUNCER_TYPE = "next-route-announcer";
 const ANNOUNCER_ID = "__next-route-announcer__";
 function getAnnouncerNode() {
@@ -2783,7 +2783,7 @@ Object.defineProperty(exports, "default", ({
 const _interop_require_default = __webpack_require__(5967);
 const _interop_require_wildcard = __webpack_require__(1113);
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(8038));
-const _reactdom = /*#__PURE__*/ _interop_require_default._(__webpack_require__(8704));
+const _reactdom = /*#__PURE__*/ _interop_require_default._(__webpack_require__(3743));
 const _approutercontext = __webpack_require__(7085);
 const _fetchserverresponse = __webpack_require__(4025);
 const _infinitepromise = __webpack_require__(6499);

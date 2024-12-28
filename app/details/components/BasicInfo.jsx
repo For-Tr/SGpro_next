@@ -5,7 +5,7 @@ export default function BasicInfo({ project }) {
   const [autoplayInterval, setAutoplayInterval] = useState(null)
   const priceRange = "$2,207 - $2,702"
   const pricePerUnit = "$2.70M - $3.49M"
-  const BASE = "http://127.0.0.1:8000"
+  const BASE = "http://129.226.92.69/"
 
   // Autoplay functionality
   useEffect(() => {

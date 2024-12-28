@@ -12,7 +12,7 @@ module.exports = require("next/dist/compiled/react");
 
 /***/ }),
 
-/***/ 8704:
+/***/ 3743:
 /***/ ((module) => {
 
 "use strict";
@@ -238,13 +238,13 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 8957:
+/***/ 6587:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7734, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 8709, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7833, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2698, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7833, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9150, 23))
 
 /***/ }),
@@ -282,7 +282,7 @@ function BasicInfo({ project }) {
     const [autoplayInterval, setAutoplayInterval] = (0,react_.useState)(null);
     const priceRange = "$2,207 - $2,702";
     const pricePerUnit = "$2.70M - $3.49M";
-    const BASE = "http://127.0.0.1:8000";
+    const BASE = "http://129.226.92.69/";
     // Autoplay functionality
     (0,react_.useEffect)(()=>{
         const interval = setInterval(()=>{
@@ -780,7 +780,7 @@ function DetailPage({ params }) {
     (0,react_.useEffect)(()=>{
         const fetchData = async ()=>{
             try {
-                const response = await fetch(`http://127.0.0.1:8000/CSAA/projects/${params.id}`);
+                const response = await fetch(`http://129.226.92.69/CSAA/projects/${params.id}`);
                 const data = await response.json();
                 setProjectData(data.data);
             } catch (error) {

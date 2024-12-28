@@ -12,7 +12,7 @@ module.exports = require("next/dist/compiled/react");
 
 /***/ }),
 
-/***/ 8704:
+/***/ 3743:
 /***/ ((module) => {
 
 "use strict";
@@ -373,7 +373,7 @@ const NotFound = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [1575,2088,3773,1418,4926,4426,1982,2102,2623], () => (__webpack_exec__(6069)));
+var __webpack_exports__ = __webpack_require__.X(0, [1575,2088,3773,1418,4926,4426,1982,2102,1877], () => (__webpack_exec__(6069)));
 module.exports = __webpack_exports__;
 
 })();

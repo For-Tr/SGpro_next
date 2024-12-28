@@ -17,7 +17,7 @@ export default function DetailPage({ params }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://127.0.0.1:8000/CSAA/projects/${params.id}`)
+        const response = await fetch(`http://129.226.92.69/CSAA/projects/${params.id}`)
         const data = await response.json()
         setProjectData(data.data)
       } catch (error) {

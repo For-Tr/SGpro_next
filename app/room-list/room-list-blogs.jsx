@@ -21,7 +21,7 @@ const ProjectList = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch('http://127.0.0.1:8000/CSAA/projects/?keyword=');
+        const response = await fetch('http://129.226.92.69/CSAA/projects/?keyword=');
         const data = await response.json();
         const transformedData = data.data.map(project => {
           const unitTypesSet = new Set();
@@ -48,7 +48,7 @@ const ProjectList = () => {
             size: project.size_range + "sqft", // 这里暂时按示例写死，实际应从API获取
             pricePerSqft: project.average, 
             totalPrice: "$" + project.price_range + "M", // 这里暂时按示例写死，实际应从API获取
-            image: "http://127.0.0.1:8000" + project.images[0].image, // 这里暂时按示例写死，实际应从API获取
+            image: "http://129.226.92.69" + project.images[0].image, // 这里暂时按示例写死，实际应从API获取
           };
         });
     
