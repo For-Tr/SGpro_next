@@ -12,7 +12,7 @@ module.exports = require("next/dist/compiled/react");
 
 /***/ }),
 
-/***/ 3743:
+/***/ 8704:
 /***/ ((module) => {
 
 "use strict";
@@ -164,7 +164,7 @@ module.exports = require("next/dist/shared/lib/utils");
 
 /***/ }),
 
-/***/ 9811:
+/***/ 6996:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -192,7 +192,7 @@ __webpack_require__.r(__webpack_exports__);
         'socials',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1982)), "D:\\PRO\\1118 地产信息\\react\\app\\socials\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1982)), "/home/ubuntu/SGpro_next/app/socials/page.jsx"],
           
         }]
       },
@@ -203,12 +203,12 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9562)), "D:\\PRO\\1118 地产信息\\react\\app\\layout.jsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9562)), "/home/ubuntu/SGpro_next/app/layout.jsx"],
           
         }
       ]
       }.children;
-    const pages = ["D:\\PRO\\1118 地产信息\\react\\app\\socials\\page.jsx"];
+    const pages = ["/home/ubuntu/SGpro_next/app/socials/page.jsx"];
     
     const originalPathname = "/socials/page"
     const __next_app__ = {
@@ -222,7 +222,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6587:
+/***/ 4063:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7734, 23));
@@ -233,7 +233,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5361:
+/***/ 3074:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5457, 23))
@@ -246,7 +246,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
-module.exports = createProxy("D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\link.js");
+module.exports = createProxy("/home/ubuntu/SGpro_next/node_modules/next/dist/client/link.js");
  //# sourceMappingURL=link.js.map
 
 
@@ -269,7 +269,7 @@ module.exports = __webpack_require__(7538);
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [1575,1418,1982], () => (__webpack_exec__(9811)));
+var __webpack_exports__ = __webpack_require__.X(0, [1575,5596,1982], () => (__webpack_exec__(6996)));
 module.exports = __webpack_exports__;
 
 })();

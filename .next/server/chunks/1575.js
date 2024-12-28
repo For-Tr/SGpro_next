@@ -1961,7 +1961,7 @@ Object.defineProperty(exports, "AppRouterAnnouncer", ({
     }
 }));
 const _react = __webpack_require__(8038);
-const _reactdom = __webpack_require__(3743);
+const _reactdom = __webpack_require__(8704);
 const ANNOUNCER_TYPE = "next-route-announcer";
 const ANNOUNCER_ID = "__next-route-announcer__";
 function getAnnouncerNode() {
@@ -2783,7 +2783,7 @@ Object.defineProperty(exports, "default", ({
 const _interop_require_default = __webpack_require__(5967);
 const _interop_require_wildcard = __webpack_require__(1113);
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(8038));
-const _reactdom = /*#__PURE__*/ _interop_require_default._(__webpack_require__(3743));
+const _reactdom = /*#__PURE__*/ _interop_require_default._(__webpack_require__(8704));
 const _approutercontext = __webpack_require__(7085);
 const _fetchserverresponse = __webpack_require__(4025);
 const _infinitepromise = __webpack_require__(6499);
@@ -7092,7 +7092,7 @@ function createProxy(moduleId) {
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
-module.exports = createProxy("D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\components\\app-router.js");
+module.exports = createProxy("/home/ubuntu/SGpro_next/node_modules/next/dist/client/components/app-router.js");
  //# sourceMappingURL=app-router.js.map
 
 
@@ -7104,7 +7104,7 @@ module.exports = createProxy("D:\\PRO\\1118 地产信息\\react\\node_modules\\n
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
-module.exports = createProxy("D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\components\\error-boundary.js");
+module.exports = createProxy("/home/ubuntu/SGpro_next/node_modules/next/dist/client/components/error-boundary.js");
  //# sourceMappingURL=error-boundary.js.map
 
 
@@ -7157,7 +7157,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
-module.exports = createProxy("D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\components\\layout-router.js");
+module.exports = createProxy("/home/ubuntu/SGpro_next/node_modules/next/dist/client/components/layout-router.js");
  //# sourceMappingURL=layout-router.js.map
 
 
@@ -7169,7 +7169,7 @@ module.exports = createProxy("D:\\PRO\\1118 地产信息\\react\\node_modules\\n
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
-module.exports = createProxy("D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js");
+module.exports = createProxy("/home/ubuntu/SGpro_next/node_modules/next/dist/client/components/render-from-template-context.js");
  //# sourceMappingURL=render-from-template-context.js.map
 
 
@@ -7271,7 +7271,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
-module.exports = createProxy("D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js");
+module.exports = createProxy("/home/ubuntu/SGpro_next/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js");
  //# sourceMappingURL=static-generation-searchparams-bailout-provider.js.map
 
 

@@ -8,7 +8,7 @@ exports.modules = {
 
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
-module.exports = createProxy("D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\image-component.js");
+module.exports = createProxy("/home/ubuntu/SGpro_next/node_modules/next/dist/client/image-component.js");
  //# sourceMappingURL=image-component.js.map
 
 
@@ -19,7 +19,7 @@ module.exports = createProxy("D:\\PRO\\1118 地产信息\\react\\node_modules\\n
 
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
-module.exports = createProxy("D:\\PRO\\1118 地产信息\\react\\node_modules\\next\\dist\\client\\link.js");
+module.exports = createProxy("/home/ubuntu/SGpro_next/node_modules/next/dist/client/link.js");
  //# sourceMappingURL=link.js.map
 
 

@@ -12,7 +12,7 @@ module.exports = require("next/dist/compiled/react");
 
 /***/ }),
 
-/***/ 3743:
+/***/ 8704:
 /***/ ((module) => {
 
 "use strict";
@@ -204,7 +204,7 @@ module.exports = require("next/dist/shared/lib/utils/warn-once");
 
 /***/ }),
 
-/***/ 9394:
+/***/ 2890:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -229,17 +229,17 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 75)), "D:\\PRO\\1118 地产信息\\react\\app\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 75)), "/home/ubuntu/SGpro_next/app/page.jsx"],
           
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9562)), "D:\\PRO\\1118 地产信息\\react\\app\\layout.jsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9562)), "/home/ubuntu/SGpro_next/app/layout.jsx"],
           
         }
       ]
       }.children;
-    const pages = ["D:\\PRO\\1118 地产信息\\react\\app\\page.jsx"];
+    const pages = ["/home/ubuntu/SGpro_next/app/page.jsx"];
     
     const originalPathname = "/page"
     const __next_app__ = {
@@ -253,25 +253,25 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 8704:
+/***/ 8861:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7740));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 917));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 92));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2929));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4637));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9556, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5457, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 92));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2929));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7740));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9544));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4426));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 619));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9544));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5495));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 327));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5495))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 619))
 
 /***/ }),
 
-/***/ 1143:
+/***/ 5738:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 8709, 23));
@@ -1075,7 +1075,7 @@ var jsx_runtime_ = __webpack_require__(6786);
 var module_proxy = __webpack_require__(1913);
 ;// CONCATENATED MODULE: ./app/accommodations/accommodations.jsx
 
-const proxy = (0,module_proxy.createProxy)(String.raw`D:\PRO\1118 地产信息\react\app\accommodations\accommodations.jsx`)
+const proxy = (0,module_proxy.createProxy)(String.raw`/home/ubuntu/SGpro_next/app/accommodations/accommodations.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -1088,7 +1088,7 @@ const __default__ = proxy.default;
 /* harmony default export */ const accommodations = ((/* unused pure expression or super */ null && (__default__)));
 ;// CONCATENATED MODULE: ./app/banner/banner.jsx
 
-const banner_proxy = (0,module_proxy.createProxy)(String.raw`D:\PRO\1118 地产信息\react\app\banner\banner.jsx`)
+const banner_proxy = (0,module_proxy.createProxy)(String.raw`/home/ubuntu/SGpro_next/app/banner/banner.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -1101,7 +1101,7 @@ const banner_default_ = banner_proxy.default;
 /* harmony default export */ const banner = (banner_default_);
 ;// CONCATENATED MODULE: ./app/blog/blog.jsx
 
-const blog_proxy = (0,module_proxy.createProxy)(String.raw`D:\PRO\1118 地产信息\react\app\blog\blog.jsx`)
+const blog_proxy = (0,module_proxy.createProxy)(String.raw`/home/ubuntu/SGpro_next/app/blog/blog.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -1114,7 +1114,7 @@ const blog_default_ = blog_proxy.default;
 /* harmony default export */ const blog = ((/* unused pure expression or super */ null && (blog_default_)));
 ;// CONCATENATED MODULE: ./app/deluxe/deluxe.jsx
 
-const deluxe_proxy = (0,module_proxy.createProxy)(String.raw`D:\PRO\1118 地产信息\react\app\deluxe\deluxe.jsx`)
+const deluxe_proxy = (0,module_proxy.createProxy)(String.raw`/home/ubuntu/SGpro_next/app/deluxe/deluxe.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -1446,7 +1446,7 @@ function Services() {
 
 ;// CONCATENATED MODULE: ./app/testimonial/testimonial.jsx
 
-const testimonial_proxy = (0,module_proxy.createProxy)(String.raw`D:\PRO\1118 地产信息\react\app\testimonial\testimonial.jsx`)
+const testimonial_proxy = (0,module_proxy.createProxy)(String.raw`/home/ubuntu/SGpro_next/app/testimonial/testimonial.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -1459,7 +1459,7 @@ const testimonial_default_ = testimonial_proxy.default;
 /* harmony default export */ const testimonial = ((/* unused pure expression or super */ null && (testimonial_default_)));
 ;// CONCATENATED MODULE: ./app/videoarea/videoarea.jsx
 
-const videoarea_proxy = (0,module_proxy.createProxy)(String.raw`D:\PRO\1118 地产信息\react\app\videoarea\videoarea.jsx`)
+const videoarea_proxy = (0,module_proxy.createProxy)(String.raw`/home/ubuntu/SGpro_next/app/videoarea/videoarea.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -1473,7 +1473,7 @@ const videoarea_default_ = videoarea_proxy.default;
 // EXTERNAL MODULE: ./components/seo.jsx
 var seo = __webpack_require__(9474);
 // EXTERNAL MODULE: ./app/room-list/room-list-blogs.jsx
-var room_list_blogs = __webpack_require__(6877);
+var room_list_blogs = __webpack_require__(8946);
 ;// CONCATENATED MODULE: ./app/page.jsx
 
 
@@ -1519,7 +1519,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [1575,2088,3773,8421,4667,6723,6438,3596,3324,1418,4926,4426,3852,1982,2102,4172,6024], () => (__webpack_exec__(9394)));
+var __webpack_exports__ = __webpack_require__.X(0, [1575,2088,3773,8421,4667,6723,6438,3596,3324,5596,4926,4426,3852,1982,2102,4172,6024], () => (__webpack_exec__(2890)));
 module.exports = __webpack_exports__;
 
 })();

@@ -12,7 +12,7 @@ module.exports = require("next/dist/compiled/react");
 
 /***/ }),
 
-/***/ 3743:
+/***/ 8704:
 /***/ ((module) => {
 
 "use strict";
@@ -204,7 +204,7 @@ module.exports = require("next/dist/shared/lib/utils/warn-once");
 
 /***/ }),
 
-/***/ 7562:
+/***/ 5443:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -232,7 +232,7 @@ __webpack_require__.r(__webpack_exports__);
         'blog-grid',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2672)), "D:\\PRO\\1118 地产信息\\react\\app\\blog-grid\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2672)), "/home/ubuntu/SGpro_next/app/blog-grid/page.jsx"],
           
         }]
       },
@@ -243,12 +243,12 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9562)), "D:\\PRO\\1118 地产信息\\react\\app\\layout.jsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9562)), "/home/ubuntu/SGpro_next/app/layout.jsx"],
           
         }
       ]
       }.children;
-    const pages = ["D:\\PRO\\1118 地产信息\\react\\app\\blog-grid\\page.jsx"];
+    const pages = ["/home/ubuntu/SGpro_next/app/blog-grid/page.jsx"];
     
     const originalPathname = "/blog-grid/page"
     const __next_app__ = {
@@ -262,15 +262,15 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 5484:
+/***/ 9108:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8270));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9556, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5457, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9544));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4426));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 619));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8270))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9544));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 619))
 
 /***/ }),
 
@@ -487,7 +487,7 @@ var scrollToTop = __webpack_require__(4686);
 var module_proxy = __webpack_require__(1913);
 ;// CONCATENATED MODULE: ./app/blog-grid/blog-grid-container.jsx
 
-const proxy = (0,module_proxy.createProxy)(String.raw`D:\PRO\1118 地产信息\react\app\blog-grid\blog-grid-container.jsx`)
+const proxy = (0,module_proxy.createProxy)(String.raw`/home/ubuntu/SGpro_next/app/blog-grid/blog-grid-container.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -539,7 +539,7 @@ const Bloggrid = ()=>{
 /* unused harmony exports __esModule, $$typeof */
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1913);
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PRO\1118 地产信息\react\app\scroll-to-top\scrollToTop.jsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/ubuntu/SGpro_next/app/scroll-to-top/scrollToTop.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -560,7 +560,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [1575,2088,3773,6723,8646,1418,4926,4426,3852,1982,2102,1877,4172], () => (__webpack_exec__(7562)));
+var __webpack_exports__ = __webpack_require__.X(0, [1575,2088,3773,6723,8646,5596,4926,4426,3852,1982,2102,8863,4172], () => (__webpack_exec__(5443)));
 module.exports = __webpack_exports__;
 
 })();

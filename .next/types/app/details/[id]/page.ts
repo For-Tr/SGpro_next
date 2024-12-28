@@ -1,4 +1,4 @@
-// File: D:\PRO\1118 地产信息\react\app\details\[id]\page.jsx
+// File: /home/ubuntu/SGpro_next/app/details/[id]/page.jsx
 import * as entry from '../../../../../app/details/[id]/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

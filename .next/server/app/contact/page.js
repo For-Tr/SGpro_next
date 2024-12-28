@@ -12,7 +12,7 @@ module.exports = require("next/dist/compiled/react");
 
 /***/ }),
 
-/***/ 3743:
+/***/ 8704:
 /***/ ((module) => {
 
 module.exports = require("next/dist/compiled/react-dom/server-rendering-stub");
@@ -180,7 +180,7 @@ module.exports = require("next/dist/shared/lib/utils/warn-once");
 
 /***/ }),
 
-/***/ 4317:
+/***/ 2452:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -207,7 +207,7 @@ __webpack_require__.r(__webpack_exports__);
         'contact',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8207)), "D:\\PRO\\1118 地产信息\\react\\app\\contact\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8207)), "/home/ubuntu/SGpro_next/app/contact/page.jsx"],
           
         }]
       },
@@ -218,12 +218,12 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9562)), "D:\\PRO\\1118 地产信息\\react\\app\\layout.jsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9562)), "/home/ubuntu/SGpro_next/app/layout.jsx"],
           
         }
       ]
       }.children;
-    const pages = ["D:\\PRO\\1118 地产信息\\react\\app\\contact\\page.jsx"];
+    const pages = ["/home/ubuntu/SGpro_next/app/contact/page.jsx"];
     
     const originalPathname = "/contact/page"
     const __next_app__ = {
@@ -555,7 +555,7 @@ const Contact = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [1575,2088,3773,1418,4926,4426,3852,1982,2102,1877,3376], () => (__webpack_exec__(4317)));
+var __webpack_exports__ = __webpack_require__.X(0, [1575,2088,3773,5596,4926,4426,3852,1982,2102,8863,4375], () => (__webpack_exec__(2452)));
 module.exports = __webpack_exports__;
 
 })();

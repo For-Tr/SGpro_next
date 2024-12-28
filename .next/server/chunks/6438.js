@@ -4751,7 +4751,7 @@ var _propTypes = _interopRequireDefault(__webpack_require__(7071));
 
 var _react = _interopRequireDefault(__webpack_require__(8038));
 
-var _reactDom = _interopRequireDefault(__webpack_require__(3743));
+var _reactDom = _interopRequireDefault(__webpack_require__(8704));
 
 var _config = _interopRequireDefault(__webpack_require__(9445));
 

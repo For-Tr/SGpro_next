@@ -12,7 +12,7 @@ module.exports = require("next/dist/compiled/react");
 
 /***/ }),
 
-/***/ 3743:
+/***/ 8704:
 /***/ ((module) => {
 
 "use strict";
@@ -204,7 +204,7 @@ module.exports = require("next/dist/shared/lib/utils/warn-once");
 
 /***/ }),
 
-/***/ 705:
+/***/ 4164:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -232,7 +232,7 @@ __webpack_require__.r(__webpack_exports__);
         'home-two',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3754)), "D:\\PRO\\1118 地产信息\\react\\app\\home-two\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3754)), "/home/ubuntu/SGpro_next/app/home-two/page.jsx"],
           
         }]
       },
@@ -243,12 +243,12 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9562)), "D:\\PRO\\1118 地产信息\\react\\app\\layout.jsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9562)), "/home/ubuntu/SGpro_next/app/layout.jsx"],
           
         }
       ]
       }.children;
-    const pages = ["D:\\PRO\\1118 地产信息\\react\\app\\home-two\\page.jsx"];
+    const pages = ["/home/ubuntu/SGpro_next/app/home-two/page.jsx"];
     
     const originalPathname = "/home-two/page"
     const __next_app__ = {
@@ -262,7 +262,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 7933:
+/***/ 7851:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9802))
@@ -1838,7 +1838,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1913);
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PRO\1118 地产信息\react\app\home-two\page.jsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/ubuntu/SGpro_next/app/home-two/page.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -1859,7 +1859,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [1575,2088,8421,6438,1418,4926,3852,1838,4172,4764,5101], () => (__webpack_exec__(705)));
+var __webpack_exports__ = __webpack_require__.X(0, [1575,2088,8421,6438,5596,4926,3852,1838,4172,4411,2602], () => (__webpack_exec__(4164)));
 module.exports = __webpack_exports__;
 
 })();
