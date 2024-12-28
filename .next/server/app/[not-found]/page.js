@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
-exports.id = 578;
-exports.ids = [578];
+exports.id = 6578;
+exports.ids = [6578];
 exports.modules = {
 
 /***/ 8038:
@@ -272,6 +272,27 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
+/***/ 619:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8038);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+const SEO = ({ pageTitle })=>{
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(()=>{
+        document.title = pageTitle + " - New Launch";
+    }, []);
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SEO);
+
+
+/***/ }),
+
 /***/ 1076:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -352,7 +373,7 @@ const NotFound = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [575,88,773,418,898,426,982,102,623], () => (__webpack_exec__(6069)));
+var __webpack_exports__ = __webpack_require__.X(0, [1575,2088,3773,1418,4926,4426,1982,2102,2623], () => (__webpack_exec__(6069)));
 module.exports = __webpack_exports__;
 
 })();

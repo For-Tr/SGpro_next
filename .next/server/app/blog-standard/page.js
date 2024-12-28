@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
-exports.id = 60;
-exports.ids = [60];
+exports.id = 2060;
+exports.ids = [2060];
 exports.modules = {
 
 /***/ 8038:
@@ -262,14 +262,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9017:
+/***/ 7725:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3155));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9556, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5457, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3155));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9544));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4426));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9544));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 619))
 
 /***/ }),
@@ -576,7 +576,7 @@ const Blogstandard = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [575,88,773,421,723,646,418,898,544,426,982,102,623,172,471], () => (__webpack_exec__(8419)));
+var __webpack_exports__ = __webpack_require__.X(0, [1575,2088,3773,8421,6723,8646,1418,4926,4426,3852,1982,2102,2623,4172,1471], () => (__webpack_exec__(8419)));
 module.exports = __webpack_exports__;
 
 })();

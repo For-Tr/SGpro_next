@@ -5,7 +5,7 @@ import "./styles/styles.css";
 import "./assets/css/all.css";
 import "./assets/css/meanmenu.min.css";
 import "./assets/sass/style.css";
-
+import './globals.css'
 export default function RootLayout({ children }) {
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.min.js");

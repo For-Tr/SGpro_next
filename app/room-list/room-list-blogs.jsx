@@ -1,6 +1,8 @@
 'use client';
 import { useState, useEffect } from "react";
 import { FaBed, FaRuler } from 'react-icons/fa'; // 需要安装 react-icons
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 const ProjectList = () => {
   const [projects, setProjects] = useState([]);
@@ -11,11 +13,15 @@ const ProjectList = () => {
   const [marketSegment, setMarketSegment] = useState("All Areas");
   const [rentalYield, setRentalYield] = useState(0);
   const [hasNearbySchool, setHasNearbySchool] = useState(false);
+  const router = useRouter();
+  const handleProjectClick = (projectId) => {
+    router.push(`/details/${projectId}`);
+  };
 
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch('http://106.14.245.152/CSAA/projects/?keyword=');
+        const response = await fetch('http://127.0.0.1:8000/CSAA/projects/?keyword=');
         const data = await response.json();
         const transformedData = data.data.map(project => {
           const unitTypesSet = new Set();
@@ -37,11 +43,12 @@ const ProjectList = () => {
             totalUnits: project.development_site_number_of_units,
             launchDate: project.launch_date,
             expectedTOP: project.expected_TOP_date,
+            sale_percent: project.sale_percent,
             unitTypes: unitTypesStr + ' Bedroom',
-            size: "527 - 1,507 sqft", // 这里暂时按示例写死，实际应从API获取
-            pricePerSqft: "2,200", // 这里暂时按示例写死，实际应从API获取
-            totalPrice: "$2.22M - $3.54M", // 这里暂时按示例写死，实际应从API获取
-            image: "http://106.14.245.152" + project.cover_image, // 这里暂时按示例写死，实际应从API获取
+            size: project.size_range + "sqft", // 这里暂时按示例写死，实际应从API获取
+            pricePerSqft: project.average, 
+            totalPrice: "$" + project.price_range + "M", // 这里暂时按示例写死，实际应从API获取
+            image: "http://127.0.0.1:8000" + project.images[0].image, // 这里暂时按示例写死，实际应从API获取
           };
         });
     
@@ -143,14 +150,14 @@ const ProjectList = () => {
       {/* Projects Grid */}
       <div className="projects-grid">
         {projects.map((project) => (
-          <div key={project.id} className="project-card">
+          <div key={project.id} className="project-card"  onClick={() => handleProjectClick(project.id)}>
             <div className="project-image">
               <img src={project.image} alt={project.projectName} />
               <span className={`status-badge ${project.status === "0" ? "upcoming" : "on-sale"}`}>
-                {project.status === "0" ? "Upcoming" : "On Sale"}
+                {project.status === "0" ? "Upcoming" : `${project.sale_percent}% Sold`}
               </span>
               {project.status !== "0" && (
-                <span className="sold-percentage">21% Sold</span>
+                <span className="sold-percentage">On Sale</span>
               )}
             </div>
             
@@ -406,18 +413,22 @@ const styles = `
 
   .status-badge.upcoming {
     background: #2563eb;
+    top: 0px;
   }
 
   .status-badge.on-sale {
-    background: #6b7280;
+    background: #2563eb;
+    
+    top: 0px;
+
   }
 
   .sold-percentage {
     position: absolute;
-    top: 12px;
-    left: 12px;
+    top: 0px;
+    left: 0px;
     padding: 6px 12px;
-    border-radius: 20px;
+    border-radius: 8px;
     background: rgba(0, 0, 0, 0.6);
     color: white;
     font-size: 12px;

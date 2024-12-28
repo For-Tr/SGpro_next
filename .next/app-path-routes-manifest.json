@@ -1,18 +1,19 @@
 {
-  "/[not-found]/page": "/[not-found]",
   "/page": "/",
-  "/contact/page": "/contact",
-  "/blog-grid/page": "/blog-grid",
-  "/home-two/page": "/home-two",
-  "/home-three/page": "/home-three",
+  "/[not-found]/page": "/[not-found]",
   "/about/page": "/about",
   "/blog-standard/page": "/blog-standard",
-  "/room-details/page": "/room-details",
+  "/blog-grid/page": "/blog-grid",
+  "/contact/page": "/contact",
+  "/details/page": "/details",
+  "/home-three/page": "/home-three",
+  "/home-two/page": "/home-two",
   "/room-modern/page": "/room-modern",
-  "/room-style/page": "/room-style",
-  "/socials/page": "/socials",
   "/room-list/page": "/room-list",
   "/services-details/page": "/services-details",
+  "/room-style/page": "/room-style",
+  "/socials/page": "/socials",
   "/team/page": "/team",
-  "/blog-details/[id]/page": "/blog-details/[id]"
+  "/blog-details/[id]/page": "/blog-details/[id]",
+  "/details/[id]/page": "/details/[id]"
 }

@@ -287,7 +287,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _breadcrumb_breadcrumb__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(727);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(1621);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _room_details_sidebar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(1750);
+/* harmony import */ var _details_sidebar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(494);
 /* harmony import */ var _header_HeaderOne__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(4426);
 /* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(619);
 /* __next_internal_client_entry_do_not_use__ default auto */ 
@@ -319,7 +319,7 @@ const Roomstyle = ()=>{
                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                         className: "row",
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_room_details_sidebar__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {}),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_details_sidebar__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {}),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "col-xl-9 col-lg-8 order-first order-lg-1 lg-mb-30",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -467,7 +467,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [575,88,421,667,418,898,544,426,838,489,707,727,101,750], () => (__webpack_exec__(936)));
+var __webpack_exports__ = __webpack_require__.X(0, [1575,2088,8421,4667,1418,4926,4426,3852,1838,1489,5707,727,5101,494], () => (__webpack_exec__(936)));
 module.exports = __webpack_exports__;
 
 })();
