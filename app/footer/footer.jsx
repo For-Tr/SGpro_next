@@ -1,8 +1,6 @@
 // Import necessary components and icons
 import footerOne from "@/components/data/footerOne";
-import Image from "next/image";
 import Link from "next/link";
-import Social from "../socials/page";
 
 const {
   logo,

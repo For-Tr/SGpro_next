@@ -1,19 +1,4 @@
 {
-  "/[not-found]/page": "app/[not-found]/page.js",
-  "/about/page": "app/about/page.js",
   "/page": "app/page.js",
-  "/blog-grid/page": "app/blog-grid/page.js",
-  "/team/page": "app/team/page.js",
-  "/room-list/page": "app/room-list/page.js",
-  "/socials/page": "app/socials/page.js",
-  "/room-style/page": "app/room-style/page.js",
-  "/room-modern/page": "app/room-modern/page.js",
-  "/services-details/page": "app/services-details/page.js",
-  "/home-two/page": "app/home-two/page.js",
-  "/home-three/page": "app/home-three/page.js",
-  "/details/page": "app/details/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/blog-standard/page": "app/blog-standard/page.js",
-  "/details/[id]/page": "app/details/[id]/page.js",
-  "/blog-details/[id]/page": "app/blog-details/[id]/page.js"
+  "/details/[id]/page": "app/details/[id]/page.js"
 }

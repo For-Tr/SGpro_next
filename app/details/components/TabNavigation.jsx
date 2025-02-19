@@ -4,6 +4,9 @@ export default function TabNavigation({ activeTab, onTabChange }) {
       { id: 'transactions', label: 'Sales Transactions' },
       { id: 'site', label: 'Site Plan' },
 
+
+      { id: 'unit-mix', label: 'unit-mix' },
+
       { id: 'location', label: 'Location' },
       { id: 'report', label: 'Report' },
 

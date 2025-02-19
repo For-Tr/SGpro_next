@@ -3,12 +3,14 @@ import HeaderOne from "../../header/HeaderOne";
 
 import { useEffect, useState } from 'react'
 import BasicInfo from '../components/BasicInfo'
-import UnitInfo from '../components/UnitInfo'
+import UnitMix from '../components/UnitMix'
 import FloorPlan from '../components/FloorPlan'
 import SalesTransactions from '../components/SalesTransactions'
 import Location from '../components/Location'
 import VideoSection from '../components/VideoSection'
 import TabNavigation from '../components/TabNavigation'
+import Lentor from '../components/Lentor'
+
 
 export default function DetailPage({ params }) {
   const [projectData, setProjectData] = useState(null)
@@ -32,18 +34,36 @@ export default function DetailPage({ params }) {
 
   return (
 
-    <div className="max-w-7xl mx-auto px-4">
-      <HeaderOne />
+    <div className="max-w-full mx-auto px-4">
+    <HeaderOne />
+    <div className="mt-8">
       <BasicInfo project={projectData} />
-      
+    </div>
+    <div className="max-w-7xl mx-auto px-4">
       <TabNavigation 
         activeTab={activeTab} 
         onTabChange={setActiveTab}
       />
+    </div>
       
       <div className="mt-6">
-        {activeTab === 'floor-plan' && <FloorPlan floorPlans={projectData.floor_plans} />}
-        {activeTab === 'unit-info' && <UnitInfo units={projectData.units} />}
+        {activeTab === 'floor-plan' && 
+          <div className="min-h-screen bg-gray-100 p-6">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <div className="lg:col-span-2 space-y-6">
+              <UnitMix units={projectData.units} />
+                <FloorPlan floorPlans={projectData.floor_plans} />
+                <SalesTransactions transactions={projectData.sales_transactions} />
+              </div>
+              <div className="lg:col-span-1">
+                <Lentor />
+              </div>
+            </div>
+          </div>
+        </div>
+          }
+        {activeTab === 'unit-mix' && <UnitMix units={projectData.units} />}
         {activeTab === 'transactions' && <SalesTransactions transactions={projectData.sales_transactions} />}
         {activeTab === 'location' && <Location locationData={projectData.location} />}
         {activeTab === 'video' && <VideoSection />}

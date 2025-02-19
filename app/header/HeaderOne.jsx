@@ -1,25 +1,31 @@
 "use client"
 
 import React, { useEffect, useState } from "react";
-import { Blog, Home, Page, Room } from "./Menu";
-import DropDown from "./DropDown";
 import Link from "next/link";
 
 export default function HeaderOne() {
-    const [isSticky, setIsSticky] = useState(false);
+    const [scrollProgress, setScrollProgress] = useState(0);
 
     useEffect(() => {
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 0) {
-                setIsSticky(true);
-            } else {
-                setIsSticky(false);
-            }
-        });
+        const handleScroll = () => {
+            // 计算0-100之间的滚动进度
+            const progress = Math.min(window.scrollY / 100, 1);
+            setScrollProgress(progress);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
     return (
-        <header className={`header ${isSticky ? "sticky" : ""}`}>
+        <header 
+            className="header"
+            style={{
+                '--scroll-progress': scrollProgress,
+                '--shadow-opacity': scrollProgress * 0.1,
+                '--backdrop-blur': `${scrollProgress * 5}px`,
+            }}
+        >
             <div className="container">
                 <div className="header-content">
                     <div className="logo">
@@ -56,17 +62,19 @@ export default function HeaderOne() {
 
             <style>{`
                 .header {
-                    background: white;
-                    padding: 15px 0;
-                    border-bottom: 1px solid #eaeaea;
-                }
-                
-                .sticky {
                     position: fixed;
                     top: 0;
                     width: 100%;
                     z-index: 1000;
-                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                    padding: 15px 0;
+                    background: rgba(255, 255, 255, calc(0.4 + var(--scroll-progress) * 0.6));
+                    backdrop-filter: blur(var(--backdrop-blur));
+                    border-bottom: 1px solid rgba(234, 234, 234, var(--scroll-progress));
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, var(--shadow-opacity));
+                    transition: background-color 0.3s ease, 
+                                backdrop-filter 0.3s ease, 
+                                border-bottom 0.3s ease,
+                                box-shadow 0.3s ease;
                 }
 
                 .container {
@@ -99,9 +107,11 @@ export default function HeaderOne() {
                     max-width: 600px;
                     display: flex;
                     align-items: center;
-                    border: 1px solid #eaeaea;
+                    border: 1px solid rgba(234, 234, 234, 0.8);
                     border-radius: 8px;
                     padding: 8px;
+                    background: rgba(255, 255, 255, 0.8);
+                    backdrop-filter: blur(5px);
                 }
 
                 .currency-select {
@@ -117,6 +127,7 @@ export default function HeaderOne() {
                     padding: 0 10px;
                     font-size: 14px;
                     outline: none;
+                    background: transparent;
                 }
 
                 .search-button {
@@ -138,12 +149,13 @@ export default function HeaderOne() {
                     font-size: 14px;
                     font-weight: 500;
                     text-decoration: none;
-                    background: #0052FF;
+                    transition: all 0.3s ease;
                 }
 
                 .sign-up {
                     color: white;
                     border: 1px solid #0052FF;
+                    background: #0052FF;
                 }
 
                 .log-in {
@@ -155,6 +167,11 @@ export default function HeaderOne() {
                     .search-bar {
                         display: none;
                     }
+                }
+
+                /* 为了补偿固定定位导致的空间损失 */
+                body {
+                    padding-top: 71px;
                 }
             `}</style>
         </header>

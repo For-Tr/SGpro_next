@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/[not-found]/page",{
+
+/***/ "(app-client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fxiangnan%2FPro%2FSGpro_next%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&modules=%2FUsers%2Fxiangnan%2FPro%2FSGpro_next%2Fapp%2Fheader%2FHeaderOne.jsx&modules=%2FUsers%2Fxiangnan%2FPro%2FSGpro_next%2Fcomponents%2Fseo.jsx&server=false!":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fxiangnan%2FPro%2FSGpro_next%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&modules=%2FUsers%2Fxiangnan%2FPro%2FSGpro_next%2Fapp%2Fheader%2FHeaderOne.jsx&modules=%2FUsers%2Fxiangnan%2FPro%2FSGpro_next%2Fcomponents%2Fseo.jsx&server=false! ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/link.js */ \"(app-client)/./node_modules/next/dist/client/link.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./app/header/HeaderOne.jsx */ \"(app-client)/./app/header/HeaderOne.jsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/seo.jsx */ \"(app-client)/./components/seo.jsx\"))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1jbGllbnQpLy4vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9idWlsZC93ZWJwYWNrL2xvYWRlcnMvbmV4dC1mbGlnaHQtY2xpZW50LWVudHJ5LWxvYWRlci5qcz9tb2R1bGVzPSUyRlVzZXJzJTJGeGlhbmduYW4lMkZQcm8lMkZTR3Byb19uZXh0JTJGbm9kZV9tb2R1bGVzJTJGbmV4dCUyRmRpc3QlMkZjbGllbnQlMkZsaW5rLmpzJm1vZHVsZXM9JTJGVXNlcnMlMkZ4aWFuZ25hbiUyRlBybyUyRlNHcHJvX25leHQlMkZhcHAlMkZoZWFkZXIlMkZIZWFkZXJPbmUuanN4Jm1vZHVsZXM9JTJGVXNlcnMlMkZ4aWFuZ25hbiUyRlBybyUyRlNHcHJvX25leHQlMkZjb21wb25lbnRzJTJGc2VvLmpzeCZzZXJ2ZXI9ZmFsc2UhIiwibWFwcGluZ3MiOiJBQUFBLHVNQUF5RztBQUN6Ryx1S0FBNEY7QUFDNUYiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLz9mYTMzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL3hpYW5nbmFuL1Byby9TR3Byb19uZXh0L25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY2xpZW50L2xpbmsuanNcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy94aWFuZ25hbi9Qcm8vU0dwcm9fbmV4dC9hcHAvaGVhZGVyL0hlYWRlck9uZS5qc3hcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy94aWFuZ25hbi9Qcm8vU0dwcm9fbmV4dC9jb21wb25lbnRzL3Nlby5qc3hcIikiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(app-client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fxiangnan%2FPro%2FSGpro_next%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&modules=%2FUsers%2Fxiangnan%2FPro%2FSGpro_next%2Fapp%2Fheader%2FHeaderOne.jsx&modules=%2FUsers%2Fxiangnan%2FPro%2FSGpro_next%2Fcomponents%2Fseo.jsx&server=false!\n"));
+
+/***/ })
+
+});
